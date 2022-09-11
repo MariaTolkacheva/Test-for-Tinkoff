@@ -44,11 +44,11 @@ def predict(model, user_input):
     return (' '.join(user_input))
 
 
-print("Enter a phrase: ")
-user_input = input('')
+print("Введите начало фразы: ")
+prefix = input('')
 length = int(input('длина генерируемой последовательности'))
-i = predict(model, user_input)
-while length > 0:
+i = predict(model, prefix)
+while length > 1:
     print(i)
     i = predict(model, str(i))
     length -= 1
