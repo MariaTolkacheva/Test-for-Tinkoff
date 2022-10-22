@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-22T07:33:27.818Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="3NAixn15aXTZ1FAQ-Frr" version="20.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-22T07:49:50.774Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="a18MQyABHpAp1-rmhlO9" version="20.5.0" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="847" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -43,7 +43,7 @@
         <mxCell id="ibsQUTUWQ27VnVEJZ0z8-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="80" y="160" width="10" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="ibsQUTUWQ27VnVEJZ0z8-6" value="CheckDelivery" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+        <mxCell id="ibsQUTUWQ27VnVEJZ0z8-6" value="MakeDelivery" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="90" y="169" as="sourcePoint" />
             <mxPoint x="195" y="169" as="targetPoint" />
@@ -124,6 +124,39 @@
             <mxPoint x="190" y="500" as="sourcePoint" />
             <mxPoint x="90" y="500" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ZMovlAd9aRy1n84pls4W-1" value="restaurant" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="60" width="20" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMovlAd9aRy1n84pls4W-2" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="290" as="sourcePoint" />
+            <mxPoint x="360" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZMovlAd9aRy1n84pls4W-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="730" y="260" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMovlAd9aRy1n84pls4W-4" value="initialiseDelivery()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="ZMovlAd9aRy1n84pls4W-3" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="260" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZMovlAd9aRy1n84pls4W-5" value="confirmDelivery()" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="ZMovlAd9aRy1n84pls4W-3" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="hTDf0nxFUsidas3IWFS-" name="Страница 2">
+    <mxGraphModel dx="762" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c-zr3uhG2UjLRN9a12ck-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="100" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
